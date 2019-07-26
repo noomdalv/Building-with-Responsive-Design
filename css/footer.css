@@ -1,0 +1,19 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100px 50px 100px;
+  border: solid black 1px;
+  margin-top: 80px;
+}
+
+.footerBox1 {
+  border: solid black 1px;
+}
+
+.footerBox2 {
+  border: solid black 1px;
+}
+
+.footerBox3 {
+  border: solid black 1px;
+}
