@@ -1,0 +1,89 @@
+@media only screen and (max-width: 768px) {
+
+  body {
+    background: lightblue;
+  }
+
+  #firstSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px;
+    border: solid black 1px;
+  }
+
+  .firstSectionLeft {
+    background: green;
+  }
+
+  .firstSectionRight1 {
+    background: red;
+  }
+
+  .firstSectionRight2 {
+    background: blue;
+  }
+
+  #secondSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .secondSectionBox {
+    border: solid black 1px;
+  }
+
+  #latestNews {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #thirdSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #latestFunding {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .thirdSectionBox {
+    border: solid black 1px;
+  }
+
+  #fourthSection {
+    display: flex;
+    flex-direction: column;
+    background: red;
+  }
+
+  .fourthSectionBox {
+
+  }
+
+  #fifthSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fifthSectionBox {
+    border: solid black 1px;
+  }
+
+  #latestDeals {
+    display: flex;
+    flex-direction: column;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
+
+}

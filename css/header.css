@@ -72,6 +72,8 @@ nav ul {
   font-size: 13px;
   padding: 3px;
   padding-left: 14px;
+  position: fixed;
+  top: 0;
 }
 
 .headerDivYellow img {
