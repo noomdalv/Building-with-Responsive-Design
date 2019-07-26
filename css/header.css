@@ -65,3 +65,16 @@ nav ul {
 #headerNavWhite a:hover {
   color: black;
 }
+
+.headerDivYellow {
+  background: #fd3;
+  color: #000;
+  font-size: 13px;
+  padding: 3px;
+  padding-left: 14px;
+}
+
+.headerDivYellow img {
+  width: 13px;
+  height: 13px;
+}
