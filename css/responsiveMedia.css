@@ -1,3 +1,27 @@
-@media  (max-width: 768px) {
+@media only screen and (max-width: 768px) {
+
+  body {
+    background: lightblue;
+  }
+
+  #firstSection {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px;
+    border: solid black 1px;
+  }
+
+  .firstSectionLeft {
+    background: green;
+  }
+
+  .firstSectionRight1 {
+    background: red;
+  }
+
+  .firstSectionRight2 {
+    background: blue;
+  }
+
 
 }
