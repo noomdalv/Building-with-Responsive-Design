@@ -75,4 +75,22 @@
   border: solid green 1px;
 }
 
-.
+#fifthSection {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  margin-top: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 50px 150px 150px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+}
+
+.fifthSectionBox {
+  border: solid black 1px;
+}
+
+#latestDeals {
+  border: solid black 1px;
+  grid-column: 1 / 5;
+}
