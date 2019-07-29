@@ -20,7 +20,6 @@ ul {
   display: flex;
   list-style: none;
   padding: 0;
-  border: solid blue 3px;
 }
 
 #firstSection {
@@ -29,6 +28,8 @@ ul {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 270px 270px;
   grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  color: white;
 }
 
 #firstSection a {
@@ -37,14 +38,8 @@ ul {
 }
 
 #firstSection li {
-  border: solid green 1px;
   margin-right: 5px;
   display: flex;
-  flex-direction: row;
-}
-
-#firstSection h2{
-  font-size: 50px;
 }
 
 .cover-gradient {
@@ -54,6 +49,7 @@ ul {
   height: 100%;
   width: 100%;
 }
+
 
 .firstSectionLeft {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Eventually-796x398.png") no-repeat;
@@ -69,16 +65,39 @@ ul {
   top: 110px;
   height: 110px;
   width: 456px;
-  text-align: right;
 }
 
 .firstGridLeft {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 30px 100px 30px;
+  grid-row-gap: 15px;
   position: absolute;
-  top: 480px;
+  top: 400px;
   left: 40px;
   color: white;
+  width: 1050px;
+  padding: 20px 10px;
   align-items: center;
-  border: solid white 1px;
+}
+
+#firstGridLeft h2 {
+  font-size: 56px;
+}
+
+.firstGridRight1 {
+  border: solid lightblue 1px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px 60px 20px;
+  grid-row-gap: 5px;
+  position: absolute;
+  top: 210px;
+  right: 40px;
+}
+
+.firstGridRight1 h2 {
+  font-size: 26px;
 }
 
 #coverDate {
@@ -88,10 +107,9 @@ ul {
   right: 600px;
 }
 
-.firstSectionGrid {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 20px 50px 20px;
+.firstSectionTitle {
+  display: flex;
+  flex-direction: wrap;
 }
 
 .firstSectionRight1 {
@@ -103,6 +121,12 @@ ul {
   background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Snag_1850059c-796x424.png");
   background-size: 100% 100%;
 }
+
+
+
+
+/* SECOND SECTION */
+
 
 #secondSection {
   display: grid;
