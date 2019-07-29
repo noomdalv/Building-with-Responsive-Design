@@ -5,6 +5,7 @@
   background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") no-repeat;
   width: 16px;
   height: 16px;
+  margin-right: 5px;
 }
 
 .icon-clock {
@@ -19,6 +20,7 @@ ul {
   display: flex;
   list-style: none;
   padding: 0;
+  border: solid blue 3px;
 }
 
 #firstSection {
@@ -27,12 +29,22 @@ ul {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 270px 270px;
   grid-column-gap: 8px;
-  border: solid black 1px;
 }
 
 #firstSection a {
   color: white;
   text-decoration: none;
+}
+
+#firstSection li {
+  border: solid green 1px;
+  margin-right: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+#firstSection h2{
+  font-size: 50px;
 }
 
 .cover-gradient {
@@ -65,10 +77,8 @@ ul {
   top: 480px;
   left: 40px;
   color: white;
-}
-
-#test {
-
+  align-items: center;
+  border: solid white 1px;
 }
 
 #coverDate {
