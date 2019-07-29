@@ -9,13 +9,11 @@
 }
 
 #cover-gradient {
-  position: relative;
-  z-index: 5;
-  border: solid orange 2px;
+  background: rgba(0,0,0,.25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+  background-size: 100% 100%;
+  display: block;
   height: 100%;
   width: 100%;
-  background: rgb(0,0,0);
-  background: linear-gradient(360deg, rgba(0,0,0,0.7458333675266982) 0%, rgba(47,45,45,0) 39%, rgba(89,88,88,0) 40%, rgba(167,167,167,0) 100%);
 }
 
 .firstSectionLeft {
@@ -26,12 +24,13 @@
 
 .firstSectionLeftLogo {
   position: absolute;
-  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-size: contain;
   left: 24px;
-  border: solid black 1px;
-  height: 112px;
-  width: 495px;
-  opacity: 1;
+  top: 110px;
+  height: 110px;
+  width: 456px;
+  text-align: right;
 }
 
 .firstSectionRight1 {
