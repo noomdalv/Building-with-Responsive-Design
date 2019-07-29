@@ -2,7 +2,7 @@
 
 .icon {
   display: block;
-  background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
+  background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") no-repeat;
   width: 16px;
   height: 16px;
 }
@@ -18,6 +18,7 @@
 ul {
   display: flex;
   list-style: none;
+  padding: 0;
 }
 
 #firstSection {
@@ -25,10 +26,16 @@ ul {
   margin: auto;
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 270px 270px;
+  grid-column-gap: 8px;
   border: solid black 1px;
 }
 
-#cover-gradient {
+#firstSection a {
+  color: white;
+  text-decoration: none;
+}
+
+.cover-gradient {
   background: rgba(0,0,0,.25) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
   background-size: 100% 100%;
   display: block;
@@ -53,26 +60,38 @@ ul {
   text-align: right;
 }
 
-#coverDate {
-  color: #fff;
+.firstGridLeft {
   position: absolute;
-  right: 24px;
-  z-index: 5;
+  top: 480px;
+  left: 40px;
+  color: white;
 }
 
-.firstSectionLeftGrid {
+#test {
+
+}
+
+#coverDate {
+  color: white  ;
+  position: absolute;
+  top: 110px;
+  right: 600px;
+}
+
+.firstSectionGrid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 20px 50px 20px;
-  position: absolute;
 }
 
 .firstSectionRight1 {
-  background: red;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/hype_AI_sad1200-796x417.png");
+  background-size: 100% 100%;
 }
 
 .firstSectionRight2 {
-  background: blue;
+  background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Snag_1850059c-796x424.png");
+  background-size: 100% 100%;
 }
 
 #secondSection {
