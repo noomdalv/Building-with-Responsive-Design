@@ -1,10 +1,11 @@
 @media only screen and (max-width: 768px) {
 
-  body {
-    background: lightblue;
+  section {
+    margin-bottom: 30px;
   }
 
   #firstSection {
+    background: lightblue;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 50px 50px;
@@ -24,6 +25,7 @@
   }
 
   #secondSection {
+    background: pink;
     display: flex;
     flex-direction: column;
   }
@@ -38,13 +40,13 @@
   }
 
   #thirdSection {
-    display: flex;
-    flex-direction: column;
+    background: red;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px 50px 50px 50px;
   }
 
   #latestFunding {
-    display: flex;
-    flex-direction: column;
   }
 
   .thirdSectionBox {
@@ -52,16 +54,19 @@
   }
 
   #fourthSection {
-    display: flex;
+    display: grid;
     flex-direction: column;
-    background: red;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 50px;
+    background: orange;
   }
 
   .fourthSectionBox {
-
+    border: solid black 1px;
   }
 
   #fifthSection {
+    background: gray;
     display: flex;
     flex-direction: column;
   }
@@ -73,6 +78,11 @@
   #latestDeals {
     display: flex;
     flex-direction: column;
+  }
+
+  footer {
+    background: purple;
+    margin-top: 50px;
   }
 
   }
