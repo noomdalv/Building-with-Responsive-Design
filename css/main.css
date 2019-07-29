@@ -1,5 +1,25 @@
 @media only screen and (min-width: 768px) {
 
+.icon {
+  display: block;
+  background: transparent url(../img/icons-sprite.svg?1520429355783) no-repeat;
+  width: 16px;
+  height: 16px;
+}
+
+.icon-clock {
+  background-position: -160px -160px;
+}
+
+.icon-share {
+  background-position: -912px -912px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
 #firstSection {
   display: grid;
   margin: auto;
@@ -31,6 +51,20 @@
   height: 110px;
   width: 456px;
   text-align: right;
+}
+
+#coverDate {
+  color: #fff;
+  position: absolute;
+  right: 24px;
+  z-index: 5;
+}
+
+.firstSectionLeftGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 20px 50px 20px;
+  position: absolute;
 }
 
 .firstSectionRight1 {
