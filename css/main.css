@@ -228,7 +228,7 @@ figure {
   margin: auto;
   margin-top: 80px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 40px 150px;
+  grid-template-rows: 40px 250px;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
 }
@@ -258,24 +258,39 @@ figure {
 }
 
 .thirdSectionBox {
+  position: relative;
   border: solid black 1px;
+}
+
+.thirdSectionHeader {
+  text-align: center;
+  height: 95px;
 }
 
 .thirdSectionHeaderImg{
   width: 60px;
   height: 60px;
   position: absolute;
+  left: 10px;
+  top: 10px;
 }
 
-.thirdSectionOpacity {
-  background-color: rgba(255, 68, 34, 0.5);
+.thirdSectionHeaderTop {
+  height: 40%;
+  border: solid green 1px;
+  background: #f42;
+  color: white;
+  margin: 0;
 }
 
-.thirdSectionHeader {
-    background: #f42;
+.thirdSectionHeaderBottom {
+  height: 60%;
+  border: solid #ffebe8 1px;
+  background: #ffebe8;
 }
 
 .thirdSectionHeader h4 {
+  margin: 0;
   font-size: 18px;
   font-weight: 700;
 }
