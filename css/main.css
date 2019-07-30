@@ -161,12 +161,15 @@ ul {
 #latestNews {
   border: solid black 1px;
   grid-column: 1 / 5;
+  }
+
+section h2 {
+  margin: 0;
   color: #f42;
   font-size: 28px;
-}
-
-#latestNews h2 {
-  margin: 0;
+  border: solid blue 1px;
+  width: max-content;
+  float: left;
 }
 
 .secondSectionBox {
@@ -185,8 +188,6 @@ figure {
   height: 150px;
 }
 
-
-
 #thirdSection {
   border: solid black 1px;
   display: grid;
@@ -202,6 +203,17 @@ figure {
 #latestFunding {
   border: solid black 1px;
   grid-column: 1 / 5;
+}
+
+.latestFundingLinks {
+  float: right;
+  margin-top: 10px;
+}
+
+.latestFundingLinks a {
+  margin-right: 1px;
+  text-decoration: none;
+  color: #f42;
 }
 
 .thirdSectionBox {
