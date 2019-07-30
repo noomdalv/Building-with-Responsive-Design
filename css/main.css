@@ -1,5 +1,10 @@
 @media only screen and (min-width: 768px) {
 
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
 .icon {
   display: block;
   background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") no-repeat;
@@ -41,6 +46,10 @@ ul {
   margin-right: 5px;
   display: flex;
   font-size: 14px;
+}
+
+.firstGridLeft h2 {
+  font-size: 50px;
 }
 
 #coverDate {
@@ -142,8 +151,6 @@ ul {
 }
 
 
-
-
 /* SECOND SECTION */
 
 
@@ -151,29 +158,26 @@ ul {
   display: grid;
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 80px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 50px 270px 270px;
+  grid-template-rows: 40px 260px 260px;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
 }
 
 #latestNews {
-  border: solid black 1px;
   grid-column: 1 / 5;
-  }
+}
 
-section h2 {
+#secondSection h2 {
   margin: 0;
   color: #f42;
   font-size: 28px;
-  border: solid blue 1px;
   width: max-content;
   float: left;
 }
 
 .secondSectionBox {
-  border: solid black 1px;
   padding: 0;
 }
 
@@ -182,22 +186,51 @@ figure {
   margin: 0;
 }
 
+.secondSectionBox figcaption {
+  height: 74px;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 .secondSectionBox img {
-  border: solid orange 2px;
   width: 100%;
   height: 150px;
 }
+
+.secondSectionAuthor {
+  margin-top: 5px;
+}
+
+.secondSectionAuthor a, time {
+  text-decoration: none;
+  color: gray;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+
+/* THIRD SECTION */
 
 #thirdSection {
   border: solid black 1px;
   display: grid;
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 80px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 50px 150px;
+  grid-template-rows: 40px 150px;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
+}
+
+#thirdSection h2 {
+  margin: 0;
+  color: #f42;
+  font-size: 28px;
+  width: max-content;
+  float: left;
 }
 
 #latestFunding {
@@ -236,13 +269,15 @@ figure {
   border: solid green 1px;
 }
 
+/* FIFTH SECTION */
+
 #fifthSection {
   display: grid;
   width: 80%;
   margin: auto;
-  margin-top: 20px;
+  margin-top: 80px;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 50px 150px 150px;
+  grid-template-rows: 40px 150px 150px;
   grid-column-gap: 20px;
   grid-row-gap: 10px;
 }
@@ -255,5 +290,14 @@ figure {
   border: solid black 1px;
   grid-column: 1 / 5;
 }
+
+#fifthSection h2 {
+  margin: 0;
+  color: #f42;
+  font-size: 28px;
+  width: max-content;
+  float: left;
+}
+
 
 }
