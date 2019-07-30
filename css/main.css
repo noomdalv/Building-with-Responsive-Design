@@ -21,6 +21,14 @@ body * {
   background-position: -912px -912px;
 }
 
+.icon-tag {
+  background-position: -976px -976px;
+}
+
+.icon-briefcase{
+  background-position: -48px -48px;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -252,6 +260,27 @@ figure {
 .thirdSectionBox {
   border: solid black 1px;
 }
+
+.thirdSectionHeaderImg{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.thirdSectionOpacity {
+  background-color: rgba(255, 68, 34, 0.5);
+}
+
+.thirdSectionHeader {
+    background: #f42;
+}
+
+.thirdSectionHeader h4 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Fourth Section */
 
 #fourthSection {
   border: solid black 1px;
