@@ -28,12 +28,6 @@
     background-position: -48px -48px;
   }
 
-  ul {
-    display: flex;
-    list-style: none;
-    padding: 0;
-  }
-
   #firstSection {
     display: grid;
     margin: auto;
@@ -48,6 +42,12 @@
     color: white;
     text-decoration: none;
   }
+
+  #firstSection ul {
+     display: flex;
+     list-style: none;
+     padding: 0;
+   }
 
   #firstSection li {
     margin-right: 5px;
@@ -352,7 +352,7 @@
     margin: auto;
     margin-top: 80px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 600px 600px 600px;
+    grid-template-rows: 670px 670px 670px;
     grid-column-gap: 20px;
     grid-row-gap: 40px;
   }
@@ -402,7 +402,10 @@
 
   .fourthSectionBoxImgText ul {
     margin: 0;
+    padding: 0;
     margin-top: 5px;
+    display: flex;
+    list-style: none;
   }
 
   .fourthSectionBoxImgText time {
@@ -445,6 +448,37 @@
     width: 30%
   }
 
+  .fourthSectionBoxList {
+    border: solid red 1px;
+    height: 250px;
+    position: relative;
+  }
+
+  .fourthSectionBoxList ul {
+    list-style-type: none;
+  }
+
+  .fourthSectionBoxList ul li::before {
+    background-color: #f42;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 4px;
+    left: -10px;
+    position: relative;
+    top: 13px;
+    width: 4px;
+  }
+
+  .fourthSectionBoxList a {
+    text-decoration: none;
+  }
+
+  .fourthSectionBoxList li {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  
   /* FIFTH SECTION */
 
   #fifthSection {
