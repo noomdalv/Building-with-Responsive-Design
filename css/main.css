@@ -74,6 +74,14 @@
     width: 100%;
   }
 
+  .cover-gradient-small {
+    background: rgb(0, 0, 0) url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/image-gradient.png") no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    height: 100%;
+    width: 100%;
+  }
+
   .firstSectionLeft {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Eventually-796x398.png") no-repeat;
     background-size: 100% 100%;
@@ -215,13 +223,12 @@
   /* THIRD SECTION */
 
   #thirdSection {
-    border: solid black 1px;
     display: grid;
     width: 78%;
     margin: auto;
     margin-top: 80px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 40px 250px;
+    grid-template-rows: 40px 260px;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
   }
@@ -235,7 +242,6 @@
   }
 
   #latestFunding {
-    border: solid black 1px;
     grid-column: 1 / 5;
   }
 
@@ -252,7 +258,6 @@
 
   .thirdSectionBox {
     position: relative;
-    border: solid black 1px;
   }
 
   .thirdSectionHeader {
@@ -327,30 +332,29 @@
     background: #fffaf8;
     font-size: 12px;
     height: 80px;
-    padding-left: 15px;
-    width: 90%;
   }
 
   .thirdSectionFooter p {
     color: black;
     line-height: 19px;
+    padding-left: 15px;
+    width: 85%;
   }
 
   .thirdSectionFooter span {
     color: #555;
   }
 
-
-
   /* Fourth Section */
+
   #fourthSection {
     border: solid black 1px;
     display: grid;
     width: 80%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 80px;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 650px 650px 650px;
+    grid-template-rows: 600px 600px 600px;
     grid-column-gap: 20px;
     grid-row-gap: 40px;
   }
@@ -358,6 +362,20 @@
   .fourthSectionBox {
     border: solid green 1px;
   }
+
+  .fourthSectionBoxTitle h2 {
+    border: solid black 1px;
+    margin: 0;
+    color: #f42;
+    font-size: 28px;
+  }
+
+  .fourthSectionBoxImg {
+    height: 276px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Google-Chrome-368x276.png");
+
+  }
+
 
   /* FIFTH SECTION */
   #fifthSection {
