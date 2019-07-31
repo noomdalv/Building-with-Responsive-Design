@@ -221,7 +221,6 @@
   }
 
   /* THIRD SECTION */
-
   #thirdSection {
     display: grid;
     width: 78%;
@@ -346,7 +345,6 @@
   }
 
   /* Fourth Section */
-
   #fourthSection {
     border: solid black 1px;
     display: grid;
@@ -371,45 +369,81 @@
   }
 
   .fourthSectionBoxImg {
+    margin-top: 15px;
     height: 276px;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Google-Chrome-368x276.png") no-repeat;
     background-size: cover;
     position: relative;
   }
 
-.fourthSectionBoxImgText {
+  .fourthSectionBoxImgText {
     position: absolute;
     bottom: 15px;
     left: 10px;
     color: white;
-}
+  }
 
-.fourthSectionBoxImgText h5 {
+  .fourthSectionBoxImgText h5 {
     font-size: 12px;
     margin: 0;
-}
+  }
 
-.fourthSectionBoxImgText h2 {
+  .fourthSectionBoxImgText h2 {
     font-size: 19px;
     margin: 0;
     margin-top: 5px;
-}
+    width: 80%;
+  }
 
-.fourthSectionBoxImgText a {
+  .fourthSectionBoxImgText a {
     color: white;
     text-decoration: none;
-}
+  }
 
-.fourthSectionBoxImgText ul {
-  margin: 0;
-  margin-top: 5px;
-  color: white;
-}
+  .fourthSectionBoxImgText ul {
+    margin: 0;
+    margin-top: 5px;
+  }
 
-.fourthSectionBoxImgText li {
-  font-size: 13px;
-  opacity: 0.5;
-}
+  .fourthSectionBoxImgText time {
+    color: white;
+  }
+
+  .fourthSectionBoxImgText li {
+    font-size: 13px;
+    color: white;
+    opacity: 0.5;
+  }
+
+  .fourthSectionBoxLatest {
+    background: #fff4f2;
+    display: flex;
+    margin-top: 3px;
+  }
+
+  .fourthSectionBoxLatestLeft {
+    width: 70%;
+    color: red;
+    padding: 10px 20px;
+  }
+
+  .fourthSectionBoxLatestLeft h6 {
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .fourthSectionBoxLatestLeft p {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .fourthSectionBoxLatestRight {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Netflix-activit.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
+  }
 
   /* FIFTH SECTION */
 
