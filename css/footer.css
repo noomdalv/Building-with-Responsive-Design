@@ -8,12 +8,35 @@ footer {
 
 .footerBox1 {
   border: solid black 1px;
+  background: #131313;
+}
+
+.footerBox1 a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+}
+
+.footerBox1 li {
+  padding-right: 15px;
+}
+
+.footerBox1 ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
 }
 
 .footerBox2 {
   border: solid black 1px;
+  background: #131313;
 }
 
 .footerBox3 {
   border: solid black 1px;
+  background: #000;
 }

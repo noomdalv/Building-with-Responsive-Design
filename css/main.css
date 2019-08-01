@@ -28,6 +28,34 @@
     background-position: -48px -48px;
   }
 
+  .icon-facebook {
+    background-position: -272px -272px;
+  }
+
+  .icon-twitter {
+    background-position: -1024px -1024px;
+  }
+
+  .icon-youtube {
+    background-position: -1280px -1280px;
+  }
+
+  .icon-instagram {
+    background-position: -416px -416px;
+  }
+
+  .icon-pinterest {
+    background-position: -672px -672px;
+  }
+
+  .icon-rss {
+    background-position: -816px -816px;
+  }
+
+  .icon-mail {
+    background-position: -576px -576px;
+  }
+
   #firstSection {
     display: grid;
     margin: auto;
@@ -634,8 +662,3 @@
     font-weight: 400;
     text-decoration: none;
   }
-
-  /* SIXTH SECTION */
-
-
-}
