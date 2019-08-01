@@ -6,8 +6,7 @@ footer {
   margin-top: 80px;
 }
 
-.footerBox1 {
-  border: solid black 1px;
+.footerBox1, .footerBox2 {
   background: #131313;
 }
 
@@ -27,16 +26,42 @@ footer {
 
 .footerBox1 ul {
   display: flex;
+  margin-top: 40px;
   list-style: none;
   justify-content: center;
 }
 
-.footerBox2 {
-  border: solid black 1px;
-  background: #131313;
+.footerBox2 ul {
+  margin-top: 5px;
+  display: flex;
+  list-style: none;
+  color: white;
+  justify-content: center;
+}
+
+.footerBox2 li {
+  margin-right: 12px;
+}
+
+.footerBox2 a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #aaa;
+}
+
+.footerBox2 a:hover {
+  color: white;
 }
 
 .footerBox3 {
-  border: solid black 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: #000;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.footerBox3 b {
+  color: #f42;
 }

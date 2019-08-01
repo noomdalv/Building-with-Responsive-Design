@@ -1,21 +1,11 @@
-body * {
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  border: solid black 1px;
-}
 
 #headerNavBlack {
   background: black;
-  border: solid white 1px;
 }
 
 nav ul {
   padding: 0;
   margin: 0;
-  border: solid orange 1px;
   display: flex;
   list-style-type: none;
   align-items: center;
@@ -39,10 +29,6 @@ nav ul {
 
 #headerNavBlack a:hover {
   color: white;
-}
-
-#headerNavWhite {
-  border: solid black 1px;
 }
 
 #headerNavWhite li {
