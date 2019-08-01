@@ -164,6 +164,7 @@
   }
 
   /* SECOND SECTION */
+
   #secondSection {
     display: grid;
     width: 80%;
@@ -175,11 +176,11 @@
     grid-row-gap: 10px;
   }
 
-  #latestNews {
+  #latestNews, #latestDeals {
     grid-column: 1 / 5;
   }
 
-  #secondSection h2 {
+  #secondSection h2, #fifthSection h2  {
     margin: 0;
     color: #f42;
     font-size: 28px;
@@ -187,7 +188,7 @@
     float: left;
   }
 
-  .secondSectionBox {
+  .secondSectionBox, .fifthSectionBox {
     padding: 0;
   }
 
@@ -478,7 +479,7 @@
     line-height: 20px;
     font-size: 14px;
   }
-  
+
   /* FIFTH SECTION */
 
   #fifthSection {
@@ -487,25 +488,44 @@
     margin: auto;
     margin-top: 80px;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 40px 150px 150px;
+    grid-template-rows: 40px 300px 300px;
     grid-column-gap: 20px;
-    grid-row-gap: 10px;
+    grid-row-gap: 20px;
   }
 
-  .fifthSectionBox {
-    border: solid black 1px;
+  .fifthSectionBox img {
+    width: 100%;
+    height: 200px;
   }
 
-  #latestDeals {
-    border: solid black 1px;
-    grid-column: 1 / 5;
+  .fifthSectionBox figcaption {
+    height: 45px;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0.05rem;
   }
 
-  #fifthSection h2 {
-    margin: 0;
-    color: #f42;
-    font-size: 28px;
-    width: max-content;
-    float: left;
+  .fifthSectionAuthor {
+    color: black;
   }
+
+  .fifthSectionAuthor span {
+    color: gray;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: line-through;
+  }
+
+  .fifthSectionAuthor b {
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  /* SIXTH SECTION */
+
+
 }
