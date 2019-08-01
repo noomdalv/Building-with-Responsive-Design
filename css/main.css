@@ -347,7 +347,6 @@
 
   /* Fourth Section */
   #fourthSection {
-    border: solid black 1px;
     display: grid;
     width: 80%;
     margin: auto;
@@ -355,15 +354,13 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 670px 670px 670px;
     grid-column-gap: 20px;
-    grid-row-gap: 40px;
+    grid-row-gap: 50px;
   }
 
   .fourthSectionBox {
-    border: solid green 1px;
   }
 
   .fourthSectionBoxTitle h2 {
-    border: solid black 1px;
     margin: 0;
     color: #f42;
     font-size: 28px;
@@ -414,7 +411,7 @@
   }
 
   .fourthSectionBoxImgText li {
-    font-size: 13px;
+    font-size: 12px;
     color: white;
     opacity: 0.5;
   }
@@ -437,6 +434,7 @@
   }
 
   .fourthSectionBoxLatestLeft p {
+    height: 57px;
     margin-top: 5px;
     font-weight: bold;
     font-size: 15px;
@@ -450,13 +448,15 @@
   }
 
   .fourthSectionBoxList {
-    border: solid red 1px;
     height: 250px;
     position: relative;
   }
 
   .fourthSectionBoxList ul {
     list-style-type: none;
+    padding: 5px;
+    margin-top: 0;
+    margin-left: 5px;
   }
 
   .fourthSectionBoxList ul li::before {
@@ -473,11 +473,16 @@
 
   .fourthSectionBoxList a {
     text-decoration: none;
+    color: gray;
+    font-size: 13px;
   }
 
   .fourthSectionBoxList li {
     line-height: 20px;
-    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-bottom: solid #eee 1px;
+    width: 90%;
   }
 
   .fourthSectionBoxImg2 {
@@ -492,7 +497,7 @@
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/header-image-advert.png") no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 30%
+    width: 30%;
   }
 
   .fourthSectionBoxImg3 {
@@ -507,7 +512,7 @@
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/vrtaller1200B.png") no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 30%
+    width: 30%;
   }
 
   .fourthSectionBoxImg4 {
@@ -522,7 +527,7 @@
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200.png") no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 30%
+    width: 30%;
   }
 
   .fourthSectionBoxImg5 {
@@ -537,7 +542,7 @@
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design80.png") no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 30%
+    width: 30%;
   }
 
   .fourthSectionBoxImg6 {
@@ -552,7 +557,7 @@
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/adult-content-cryptocurrency.jpg") no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 30%
+    width: 30%;
   }
 
   .fourthSectionBoxImg7 {
@@ -567,7 +572,7 @@
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/firefox-stop-cryptojacking-bitcoin-mining-cryptocurrency-monero-blockchain-mozilla.jpg") no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 30%
+    width: 30%;
   }
 
   .fourthSectionBoxImg8 {
@@ -582,7 +587,7 @@
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter.jpg") no-repeat;
     background-size: cover;
     background-position: 50%;
-    width: 30%
+    width: 30%;
   }
 
   /* FIFTH SECTION */
