@@ -369,7 +369,7 @@
     font-size: 28px;
   }
 
-  .fourthSectionBoxImg {
+  .fourthSectionBoxImg1 {
     margin-top: 15px;
     height: 276px;
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/12/Google-Chrome-368x276.png") no-repeat;
@@ -442,7 +442,7 @@
     font-size: 15px;
   }
 
-  .fourthSectionBoxLatestRight {
+  .fourthSectionBoxLatestRight1 {
     background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Netflix-activit.jpg") no-repeat;
     background-size: cover;
     background-position: 50%;
@@ -478,6 +478,111 @@
   .fourthSectionBoxList li {
     line-height: 20px;
     font-size: 14px;
+  }
+
+  .fourthSectionBoxImg2 {
+    margin-top: 15px;
+    height: 276px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/IMG_9918-Xiaomi-Mi-9-SE-hed-368x276.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .fourthSectionBoxLatestRight2 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/header-image-advert.png") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
+  }
+
+  .fourthSectionBoxImg3 {
+    margin-top: 15px;
+    height: 276px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/04/VanMoof-8-of-9-368x276.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .fourthSectionBoxLatestRight3 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/vrtaller1200B.png") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
+  }
+
+  .fourthSectionBoxImg4 {
+    margin-top: 15px;
+    height: 276px;
+    background: url("https://i.ytimg.com/vi/Z1jgaEO9aRs/hqdefault.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .fourthSectionBoxLatestRight4 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/chineseverticalB1200.png") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
+  }
+
+  .fourthSectionBoxImg5 {
+    margin-top: 15px;
+    height: 276px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Computer-Code-368x276.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .fourthSectionBoxLatestRight5 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/Untitled-design80.png") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
+  }
+
+  .fourthSectionBoxImg6 {
+    margin-top: 15px;
+    height: 276px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/cryptocurrency-q2-second-quarter-binance-BNB-coin-token-blockchain-business-CZ-etoro-368x276.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .fourthSectionBoxLatestRight6 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/adult-content-cryptocurrency.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
+  }
+
+  .fourthSectionBoxImg7 {
+    margin-top: 15px;
+    height: 276px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/06/Orion-Doom-Bethesda-hed-368x276.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .fourthSectionBoxLatestRight7 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/04/firefox-stop-cryptojacking-bitcoin-mining-cryptocurrency-monero-blockchain-mozilla.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
+  }
+
+  .fourthSectionBoxImg8 {
+    margin-top: 15px;
+    height: 276px;
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/09/multiplayer-gaming-368x276.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+  .fourthSectionBoxLatestRight8 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/08/Ninja-Twitter.jpg") no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    width: 30%
   }
 
   /* FIFTH SECTION */
