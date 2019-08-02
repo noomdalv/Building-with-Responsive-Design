@@ -152,10 +152,6 @@
     align-items: center;
   }
 
-  .firstGridLeft h2 {
-    font-size: 50px;
-  }
-
   .firstGridLeft h5 {
     margin-bottom: 60px;
   }
@@ -165,18 +161,42 @@
   color: gray;
   }
 
+  .firstGridLeft h2 {
+    display: flex;
+    flex-direction: wrap;
+    font-size: 50px;
+  }
+
 @media screen and (max-width: 768px) {
 
   .firstGridLeft {
-    bottom: 150px;
-  }
-
-  .firstGridLeft h2 {
-    font-size: 150%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10px 30px 20px;
+    border: solid white 1px;
+    position: relative;
+    bottom: 130px;
+    left: 10px;
+    width: 90%;
+    padding: 0px 10px;
+    align-items: center;
   }
 
   .firstGridLeft h5 {
     margin-bottom: 0px;
+    margin: 0;
+    border: solid green 1px;
+  }
+
+  .firstGridLeft ul {
+  margin-top: 0;
+  color: gray;
+  }
+
+  .firstGridLeft h2 {
+    font-size: 25px;
+    margin: 0;
+    border: solid blue 1px;
   }
 }
 
@@ -201,35 +221,53 @@
     left: 15px;
   }
 
-  @media screen and (max-width: 768px) {
-    .firstGridRight1 {
-      position: relative;
-      bottom: 140px;
-    }
+  .firstGridRight1 h5 {
+    margin: 0;
   }
 
-  .firstSectionTitle {
-    display: flex;
-    flex-direction: wrap;
-  }
-
-  /* Right 1 */
-
-  .firstSectionRight1 {
-    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/hype_AI_sad1200-796x417.png");
-    background-size: 100% 100%;
+  .firstGridRight1 ul {
+    color: gray;
   }
 
   .firstGridRight1 h2 {
     font-size: 150%;
   }
 
-  .firstGridRight1 i {
-    opacity: 0.5;
+  @media screen and (max-width: 768px) {
+
+    .firstGridRight1 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10px 30px 20px;
+      border: solid white 1px;
+      position: relative;
+      bottom: 130px;
+      left: 10px;
+      width: 90%;
+      padding: 0px 10px;
+      align-items: center;
+    }
+
+    .firstGridRight1 h5 {
+      margin: 0;
+    }
+
+    .firstGridRight1 ul {
+      color: gray;
+    }
+
+    .firstGridRight1 h2 {
+      font-size: 150%;
+    }
   }
 
-  .firstGridRight1 ul {
-    color: gray;
+  .firstSectionRight1 {
+    background: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/hype_AI_sad1200-796x417.png");
+    background-size: 100% 100%;
+  }
+
+  .firstGridRight1 i {
+    opacity: 0.5;
   }
 
   /* Right 2 */
@@ -244,14 +282,12 @@
     left: 15px;
   }
 
-  @media screen and (max-width: 768px) {
-    .firstGridRight2 {
-      position: relative;
-      bottom: 140px;
-    }
+  .firstGridRight2 h5 {
+    margin: 0;
   }
 
-  .firstGridRight2 h5 {
+  .firstGridRight2 ul {
+    color: gray;
     margin: 0;
   }
 
@@ -260,13 +296,38 @@
     margin: 0;
   }
 
-  .firstGridRight2 i {
-    opacity: 0.5;
+  @media screen and (max-width: 768px) {
+
+    .firstGridRight2 {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10px 30px 20px;
+      border: solid white 1px;
+      position: relative;
+      bottom: 130px;
+      left: 10px;
+      width: 90%;
+      padding: 0px 10px;
+      align-items: center;
+    }
+
+    .firstGridRight2 h5 {
+      margin: 0;
+    }
+
+    .firstGridRight2 ul {
+      color: gray;
+      margin: 0;
+    }
+
+    .firstGridRight2 h2 {
+      font-size: 150%;
+      margin: 0;
+    }
   }
 
-  .firstGridRight2 ul {
-    margin: 0;
-    color: gray;
+  .firstGridRight2 i {
+    opacity: 0.5;
   }
 
   .firstSectionRight2 {
