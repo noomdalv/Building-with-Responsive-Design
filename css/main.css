@@ -59,7 +59,7 @@
     display: grid;
     margin: auto;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 270px 270px;
+    grid-template-rows: 215px 215px;
     grid-column-gap: 8px;
     grid-row-gap: 8px;
     color: white;
@@ -71,7 +71,7 @@
       display: grid;
       margin: auto;
       grid-template-columns: 1fr;
-      grid-auto-rows: 1fr;
+      grid-template-rows:  150px 150px 150px;
     }
   }
 
@@ -93,10 +93,11 @@
   }
 
   #coverDate {
-    color: white;
-    position: absolute;
-    top: 125px;
-    right: 540px;
+    position: relative;
+    bottom: 430px;
+    left: 860px;
+    width: 18%;
+    font-size: 15px;
   }
 
   .cover-gradient {
@@ -113,7 +114,6 @@
     display: block;
     height: 100%;
     width: 100%;
-
   }
 
   .firstSectionLeft {
@@ -122,16 +122,22 @@
     grid-row: 1 / 3;
   }
 
+@media screen and (max-width: 768px) {
+
+  .firstSectionLeft {
+    grid-row: 1 / 2;
+  }
+}
+
   .firstSectionLeftLogo {
     position: absolute;
-    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+    background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat;
     background-size: contain;
     left: 24px;
     top: 110px;
-    height: 110px;
-    width: 454px;
+    height: 20%;
+    width: 25%;
   }
-
 
   .firstGridLeft {
     display: grid;
@@ -142,20 +148,35 @@
     bottom: 220px;
     left: 10px;
     width: 90%;
-    padding: 20px 10px;
+    padding: 0px 10px;
     align-items: center;
   }
 
   .firstGridLeft h2 {
-    font-size: 300%;
+    font-size: 350%;
   }
 
   .firstGridLeft h5 {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 
-  .firstGridLeft ul {
-    margin-top: 40px;
+@media screen and (max-width: 768px) {
+
+  .firstGridLeft {
+    bottom: 150px;
+  }
+
+  .firstGridLeft h2 {
+    font-size: 150%;
+  }
+
+  .firstGridLeft h5 {
+    margin-bottom: 0px;
+  }
+}
+
+    .firstGridLeft ul {
+    margin-top: 30px;
     color: gray;
   }
 
