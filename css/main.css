@@ -95,8 +95,8 @@
   #coverDate {
     position: relative;
     bottom: 430px;
-    left: 860px;
-    width: 18%;
+    left: 82%;
+    width: 20%;
     font-size: 15px;
   }
 
@@ -142,10 +142,10 @@
   .firstGridLeft {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 15px 100px 30px;
+    grid-template-rows: 15px 50px 30px;
     grid-row-gap: 15px;
     position: relative;
-    bottom: 220px;
+    bottom: 200px;
     left: 10px;
     width: 90%;
     padding: 0px 10px;
@@ -153,11 +153,16 @@
   }
 
   .firstGridLeft h2 {
-    font-size: 350%;
+    font-size: 50px;
   }
 
   .firstGridLeft h5 {
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+  }
+
+  .firstGridLeft ul {
+  margin-top: 50px;
+  color: gray;
   }
 
 @media screen and (max-width: 768px) {
@@ -175,11 +180,6 @@
   }
 }
 
-    .firstGridLeft ul {
-    margin-top: 30px;
-    color: gray;
-  }
-
   #firstSectionTitleA  {
     text-decoration: none;
     color: gray;
@@ -194,12 +194,18 @@
   .firstGridRight1 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10px 60px 30px;
-    grid-row-gap: 15px;
+    grid-template-rows: 20px 70px 20px;
     position: relative;
-    width: 90%;
-    bottom: 150px;
+    width: 95%;
+    bottom: 160px;
     left: 15px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .firstGridRight1 {
+      position: relative;
+      bottom: 140px;
+    }
   }
 
   .firstSectionTitle {
@@ -231,23 +237,27 @@
   .firstGridRight2 {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10px 60px 30px;
-    grid-row-gap: 15px;
+    grid-template-rows: 20px 100px 20px;
     position: relative;
-    width: 90%;
-    bottom: 150px;
+    width: 95%;
+    bottom: 160px;
     left: 15px;
   }
 
   @media screen and (max-width: 768px) {
     .firstGridRight2 {
       position: relative;
-      bottom: 0;
+      bottom: 140px;
     }
+  }
+
+  .firstGridRight2 h5 {
+    margin: 0;
   }
 
   .firstGridRight2 h2 {
     font-size: 150%;
+    margin: 0;
   }
 
   .firstGridRight2 i {
@@ -255,6 +265,7 @@
   }
 
   .firstGridRight2 ul {
+    margin: 0;
     color: gray;
   }
 
@@ -274,6 +285,24 @@
     grid-template-rows: 40px 260px 260px;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
+  }
+
+  @media screen and (max-width: 768px) {
+    #secondSection {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 75px;
+    }
+
+    .secondSectionBox figure {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+    .secondSectionAuthor {
+      display: flex;
+      justify-content: flex-end;
+    }
   }
 
   #latestNews, #latestDeals {
