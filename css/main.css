@@ -68,7 +68,10 @@
   @media screen and (max-width: 768px) {
 
     #firstSection {
-
+      display: grid;
+      margin: auto;
+      grid-template-columns: 1fr;
+      grid-auto-rows: 1fr;
     }
   }
 
@@ -129,15 +132,16 @@
     width: 454px;
   }
 
+
   .firstGridLeft {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 15px 100px 30px;
     grid-row-gap: 15px;
-    position: absolute;
-    top: 420px;
-    left: 40px;
-    width: 60%;
+    position: relative;
+    bottom: 220px;
+    left: 10px;
+    width: 90%;
     padding: 20px 10px;
     align-items: center;
   }
@@ -214,6 +218,13 @@
     left: 15px;
   }
 
+  @media screen and (max-width: 768px) {
+    .firstGridRight2 {
+      position: relative;
+      bottom: 0;
+    }
+  }
+
   .firstGridRight2 h2 {
     font-size: 150%;
   }
@@ -232,6 +243,7 @@
   }
 
   /* SECOND SECTION */
+
   #secondSection {
     display: grid;
     width: 80%;
