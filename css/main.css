@@ -395,36 +395,38 @@
   @media screen and (max-width: 768px) {
     #secondSection {
       display: grid;
-      margin-top: 80px;
       grid-template-columns: 1fr;
       grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
       grid-column-gap: 20px;
-      grid-row-gap: 10px;
     }
 
     #latestNews, #latestDeals {
       grid-column: 1 / 2;
     }
 
-    .secondSectionBox {
-      border: solid black 1px;
-      display: flex;
-    }
-
     .secondSectionBox img {
       height: 75px;
-      width: 26%;
+      width: 46%;
       background-position: 50%;
+      border: solid blue 1px;
     }
 
     .secondSectionBox figcaption {
-      width: 70%;
       border: solid black 1px;
+      width: 70%;
+      position: absolute;
+    }
+
+    .secondSectionBox {
+      border: solid red 1px;
+      display: grid;
+      grid-template-columns: 1fr 4fr;
+      grid-template-rows: 53px 33px;
     }
 
     .secondSectionAuthor {
-      width: 70%;
-      border: solid black 1px;
+      border: solid green 1px;
+      width: 20%;
     }
   }
 
