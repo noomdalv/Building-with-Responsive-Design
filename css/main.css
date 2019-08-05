@@ -397,7 +397,6 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
-      grid-column-gap: 20px;
     }
 
     #latestNews, #latestDeals {
@@ -405,32 +404,38 @@
     }
 
     .secondSectionBox img {
+      width: 90px;
       height: 75px;
-      width: 46%;
-      background-position: 50%;
-      border: solid blue 1px;
+      float: left;
     }
 
     .secondSectionBox figcaption {
+      float: left;
+      padding-left: 5px;
+      padding-top: 10px;
+      height: 40px;
+      line-height: 1.5;
+      width: 60%;
       border: solid black 1px;
-      width: 70%;
-      position: absolute;
     }
 
     .secondSectionBox {
-      border: solid red 1px;
-      display: grid;
-      grid-template-columns: 1fr 4fr;
-      grid-template-rows: 53px 33px;
+    }
+
+    .secondSectionBox figure {
     }
 
     .secondSectionAuthor {
-      border: solid green 1px;
-      width: 20%;
+      float: left;
+      margin-top: 10px;
+      width: 50%;
+      height: 20px;
+      padding-left: 10px;
     }
   }
 
   /* THIRD SECTION */
+
   #thirdSection {
     display: grid;
     width: 78%;
@@ -552,6 +557,18 @@
 
   .thirdSectionFooter span {
     color: #555;
+  }
+
+  @media screen and (max-width: 768px) {
+   #thirdSection {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 130px 230px 230px 230px 230px;
+   }
+
+   #thirdSectionBox {
+     border: black solid 1px;
+   }
   }
 
   /* Fourth Section */
