@@ -157,8 +157,8 @@
   }
 
   .firstGridLeft ul {
-  margin-top: 50px;
-  color: gray;
+    margin-top: 50px;
+    color: gray;
   }
 
   .firstGridLeft h2 {
@@ -173,7 +173,6 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 10px 30px 20px;
-    border: solid white 1px;
     position: relative;
     bottom: 130px;
     left: 10px;
@@ -185,18 +184,16 @@
   .firstGridLeft h5 {
     margin-bottom: 0px;
     margin: 0;
-    border: solid green 1px;
   }
 
   .firstGridLeft ul {
-  margin-top: 0;
-  color: gray;
+    margin-top: 0;
+    color: gray;
   }
 
   .firstGridLeft h2 {
     font-size: 25px;
     margin: 0;
-    border: solid blue 1px;
   }
 }
 
@@ -216,8 +213,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 20px 70px 20px;
     position: relative;
-    width: 95%;
-    bottom: 160px;
+    width: 90%;
+    bottom: 130px;
     left: 15px;
   }
 
@@ -226,11 +223,13 @@
   }
 
   .firstGridRight1 ul {
+    margin: 0;
     color: gray;
   }
 
   .firstGridRight1 h2 {
     font-size: 150%;
+    margin: 0;
   }
 
   @media screen and (max-width: 768px) {
@@ -238,10 +237,9 @@
     .firstGridRight1 {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 10px 30px 20px;
-      border: solid white 1px;
+      grid-template-rows: 20px 40px 20px;
       position: relative;
-      bottom: 130px;
+      bottom: 100px;
       left: 10px;
       width: 90%;
       padding: 0px 10px;
@@ -254,10 +252,12 @@
 
     .firstGridRight1 ul {
       color: gray;
+      margin: 0;
     }
 
     .firstGridRight1 h2 {
       font-size: 150%;
+      margin: 0;
     }
   }
 
@@ -277,7 +277,7 @@
     grid-template-columns: 1fr;
     grid-template-rows: 20px 100px 20px;
     position: relative;
-    width: 95%;
+    width: 90%;
     bottom: 160px;
     left: 15px;
   }
@@ -301,10 +301,9 @@
     .firstGridRight2 {
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 10px 30px 20px;
-      border: solid white 1px;
+      grid-template-rows: 20px 60px 20px;
       position: relative;
-      bottom: 130px;
+      bottom: 110px;
       left: 10px;
       width: 90%;
       padding: 0px 10px;
@@ -348,24 +347,6 @@
     grid-row-gap: 10px;
   }
 
-  @media screen and (max-width: 768px) {
-    #secondSection {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 75px;
-    }
-
-    .secondSectionBox figure {
-      display: flex;
-      justify-content: flex-start;
-    }
-
-    .secondSectionAuthor {
-      display: flex;
-      justify-content: flex-end;
-    }
-  }
-
   #latestNews, #latestDeals {
     grid-column: 1 / 5;
   }
@@ -379,6 +360,7 @@
   }
 
   .secondSectionBox, .fifthSectionBox {
+    width: 100%;
     padding: 0;
   }
 
@@ -388,9 +370,8 @@
   }
 
   .secondSectionBox figcaption {
-    height: 74px;
-    margin-top: 5px;
-    font-size: 18px;
+    height: 50%;
+    font-size: 14px;
     font-weight: 700;
     line-height: 24px;
   }
@@ -401,7 +382,7 @@
   }
 
   .secondSectionAuthor {
-    margin-top: 5px;
+    height: 50%;
   }
 
   .secondSectionAuthor a, time {
@@ -409,6 +390,42 @@
     color: gray;
     font-size: 13px;
     font-weight: 400;
+  }
+
+  @media screen and (max-width: 768px) {
+    #secondSection {
+      display: grid;
+      margin-top: 80px;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
+      grid-column-gap: 20px;
+      grid-row-gap: 10px;
+    }
+
+    #latestNews, #latestDeals {
+      grid-column: 1 / 2;
+    }
+
+    .secondSectionBox {
+      border: solid black 1px;
+      display: flex;
+    }
+
+    .secondSectionBox img {
+      height: 75px;
+      width: 26%;
+      background-position: 50%;
+    }
+
+    .secondSectionBox figcaption {
+      width: 70%;
+      border: solid black 1px;
+    }
+
+    .secondSectionAuthor {
+      width: 70%;
+      border: solid black 1px;
+    }
   }
 
   /* THIRD SECTION */
