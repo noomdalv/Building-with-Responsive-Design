@@ -2,13 +2,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
   }
+  
   html {
-    width: auto;
-    border: solid purple 3px;
   }
+
   body {
-    border: solid orange 3px;
-    width: 100%;
   }
 
   .icon {
@@ -467,7 +465,7 @@
 
   #latestFunding {
     grid-column: 1 / 5;
-    width: 100%;    
+    width: 100%;
   }
 
   .latestFundingLinks {

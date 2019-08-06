@@ -1,6 +1,6 @@
-
 #headerNavBlack {
   background: black;
+  width: 100%;
 }
 
 nav ul {
@@ -29,6 +29,10 @@ nav ul {
 
 #headerNavBlack a:hover {
   color: white;
+}
+
+#headerNavWhite {
+  width: 100%;
 }
 
 #headerNavWhite li {
