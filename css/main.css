@@ -66,7 +66,7 @@
     grid-template-rows: 215px 215px;
     grid-column-gap: 8px;
     grid-row-gap: 8px;
-    color: white;    
+    color: white;
   }
 
   @media screen and (max-width: 768px) {
@@ -457,17 +457,18 @@
     margin: 0;
     color: #f42;
     font-size: 28px;
-    width: max-content;
     float: left;
   }
 
   #latestFunding {
     grid-column: 1 / 5;
+    width: 100%;
+    border: solid blue 1px;
   }
 
   .latestFundingLinks {
-    float: right;
     margin-top: 10px;
+    float: right;
   }
 
   .latestFundingLinks a {
@@ -585,15 +586,19 @@
     grid-row-gap: 50px;
   }
 
+  .fourthSectionBox {
+    margin-top: 40px;
+  }
+
   @media screen and (max-width: 768px) {
    #fourthSection {
      display: flex;
      flex-direction: column;
    }
-  }
 
-  .fourthSectionBox {
-    margin-top: 10px;
+   .fourthSectionBox {
+     margin-top: 40px;
+   }
   }
 
   .fourthSectionBoxTitle h2 {
@@ -839,11 +844,55 @@
     grid-row-gap: 20px;
   }
 
-  @media screen and (max-width: 768px) {
+/*  @media screen and (max-width: 768px) {
    #fifthSection {
      display: flex;
      flex-direction: column;
    }
+  }*/
+
+  @media screen and (max-width: 768px) {
+    #fithSection {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
+    }
+
+    #latestNews, #latestDeals {
+      grid-column: 1 / 2;
+    }
+
+    .secondSectionBox img {
+      width: 90px;
+      height: 75px;
+      float: left;
+    }
+
+    .secondSectionBox figcaption {
+      border: solid black 1px;
+      float: left;
+      padding-left: 5px;
+      padding-top: 10px;
+      height: 40px;
+      line-height: 1.5;
+      font-size: 12px;
+      width: 62%;
+    }
+
+    .secondSectionAuthor {
+      float: left;
+      margin-top: 10px;
+      width: 65%;
+      height: 20px;
+      padding-left: 10px;
+    }
+
+    .secondSectionAuthor a, time {
+      text-decoration: none;
+      color: gray;
+      font-size: 10px;
+      font-weight: 400;
+    }
   }
 
   .fifthSectionBox img {
