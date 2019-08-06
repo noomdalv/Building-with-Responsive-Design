@@ -3,6 +3,10 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  body {
+    width: 100%;
+  }
+
   .icon {
     display: block;
     background: transparent url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/icons-sprite.svg?1520429355783") no-repeat;
@@ -63,6 +67,7 @@
     grid-column-gap: 8px;
     grid-row-gap: 8px;
     color: white;
+    border: solid blue 1px;
   }
 
   @media screen and (max-width: 768px) {
@@ -163,7 +168,6 @@
 
   .firstGridLeft h2 {
     display: flex;
-    flex-direction: wrap;
     font-size: 50px;
   }
 
@@ -197,7 +201,7 @@
   }
 }
 
-  #firstSectionTitleA  {
+  .firstSectionTitleA  {
     text-decoration: none;
     color: gray;
   }
@@ -362,6 +366,7 @@
   .secondSectionBox, .fifthSectionBox {
     width: 100%;
     padding: 0;
+    border: solid black 1px;
   }
 
   figure {
@@ -410,20 +415,29 @@
     }
 
     .secondSectionBox figcaption {
+      border: solid black 1px;
       float: left;
       padding-left: 5px;
       padding-top: 10px;
       height: 40px;
       line-height: 1.5;
-      width: 60%;
+      font-size: 12px;
+      width: 62%;
     }
 
     .secondSectionAuthor {
       float: left;
       margin-top: 10px;
-      width: 50%;
+      width: 65%;
       height: 20px;
       padding-left: 10px;
+    }
+
+    .secondSectionAuthor a, time {
+      text-decoration: none;
+      color: gray;
+      font-size: 10px;
+      font-weight: 400;
     }
   }
 
