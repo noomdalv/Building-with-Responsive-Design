@@ -9,6 +9,7 @@ footer {
 
 .footerBox1, .footerBox2 {
   background: #131313;
+  width: 100%;
 }
 
 .footerBox1 a {
@@ -27,21 +28,26 @@ footer {
 
 .footerBox1 ul {
   display: flex;
-  margin-top: 40px;
+  border: solid white 1px;
   list-style: none;
   justify-content: center;
+  align-items: center;
+  margin-top: 40px;
 }
 
 .footerBox2 ul {
-  margin-top: 5px;
+  border: solid white 1px;
   display: flex;
   list-style: none;
   color: white;
   justify-content: center;
+  align-items: center;
+
 }
 
 .footerBox2 li {
   margin-right: 12px;
+
 }
 
 .footerBox2 a {
@@ -67,12 +73,31 @@ footer {
   color: #f42;
 }
 
-.test {
+.footerLinks {
   width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media screen and (max-width: 768px) {
-  footer {
 
+  .footerBox1 li {
+    padding-right: 0px;
+  }
+
+  .footerLinks {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .footerBox1 ul, .footerBox2 ul {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
