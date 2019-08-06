@@ -2,8 +2,12 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
   }
-
+  html {
+    width: auto;
+    border: solid purple 3px;
+  }
   body {
+    border: solid orange 3px;
     width: 100%;
   }
 
@@ -62,6 +66,7 @@
   #firstSection {
     display: grid;
     margin: auto;
+    width: 100%;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 215px 215px;
     grid-column-gap: 8px;
@@ -130,6 +135,7 @@
 
   .firstSectionLeft {
     grid-row: 1 / 2;
+    width: 100%;
   }
 }
 
@@ -365,7 +371,6 @@
   .secondSectionBox, .fifthSectionBox {
     width: 100%;
     padding: 0;
-    border: solid black 1px;
   }
 
   figure {
@@ -462,8 +467,7 @@
 
   #latestFunding {
     grid-column: 1 / 5;
-    width: 100%;
-    border: solid blue 1px;
+    width: 100%;    
   }
 
   .latestFundingLinks {
@@ -844,69 +848,21 @@
     grid-row-gap: 20px;
   }
 
-/*  @media screen and (max-width: 768px) {
-   #fifthSection {
-     display: flex;
-     flex-direction: column;
-   }
-  }*/
+  figure {
+    padding: 0;
+    margin: 0;
+  }
 
-  @media screen and (max-width: 768px) {
-    #fithSection {
-      display: grid;
-      grid-template-columns: 1fr;
-      grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
-    }
-
-    #latestNews, #latestDeals {
-      grid-column: 1 / 2;
-    }
-
-    .secondSectionBox img {
-      width: 90px;
-      height: 75px;
-      float: left;
-    }
-
-    .secondSectionBox figcaption {
-      border: solid black 1px;
-      float: left;
-      padding-left: 5px;
-      padding-top: 10px;
-      height: 40px;
-      line-height: 1.5;
-      font-size: 12px;
-      width: 62%;
-    }
-
-    .secondSectionAuthor {
-      float: left;
-      margin-top: 10px;
-      width: 65%;
-      height: 20px;
-      padding-left: 10px;
-    }
-
-    .secondSectionAuthor a, time {
-      text-decoration: none;
-      color: gray;
-      font-size: 10px;
-      font-weight: 400;
-    }
+  .fifthSectionBox figcaption {
+    height: 50%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
   }
 
   .fifthSectionBox img {
     width: 100%;
     height: 220px;
-  }
-
-  .fifthSectionBox figcaption {
-    height: 45px;
-    margin-top: 5px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 20px;
-    letter-spacing: 0.05rem;
   }
 
   .fifthSectionAuthor {
@@ -925,4 +881,40 @@
     font-size: 16px;
     font-weight: 400;
     text-decoration: none;
+  }
+
+  @media screen and (max-width: 768px) {
+   #fifthSection {
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
+   }
+
+   .fifthSectionBox img {
+     width: 90px;
+     height: 75px;
+     float: left;
+   }
+
+   .fifthSectionBox figcaption {
+     float: left;
+     padding-left: 5px;
+     padding-top: 10px;
+     line-height: 1.5;
+     font-size: 12px;
+     width: 62%;
+   }
+
+   .fifthSectionAuthor {
+     float: left;
+     width: 62%;
+     height: 20px;
+     padding-left: 5px;
+   }
+
+   .fifthSectionAuthor p {
+     margin: 0;
+     margin-top: 10px;
+   }
+
   }

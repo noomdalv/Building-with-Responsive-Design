@@ -4,6 +4,7 @@ footer {
   grid-template-rows: 100px 50px 100px;
   border: solid black 1px;
   margin-top: 80px;
+  width: 100%;
 }
 
 .footerBox1, .footerBox2 {
@@ -64,4 +65,14 @@ footer {
 
 .footerBox3 b {
   color: #f42;
+}
+
+.test {
+  width: 80%;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+
+  }
 }
