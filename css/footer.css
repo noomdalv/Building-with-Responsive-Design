@@ -2,14 +2,12 @@ footer {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 100px 50px 100px;
-  border: solid black 1px;
   margin-top: 80px;
   width: 100%;
 }
 
 .footerBox1, .footerBox2 {
-  background: white; /*#131313;*/
-  border: solid black 1px;
+  background: #131313;
 }
 
 .footerBox1 a {
@@ -38,7 +36,6 @@ footer {
   color: white;
   justify-content: center;
   align-items: center;
-
 }
 
 .footerBox2 li {
@@ -76,10 +73,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
-  .footerBox1 li {
-
-  }
 
   .footerLinks {
     width: 50%;

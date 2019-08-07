@@ -3,6 +3,12 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  body {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
   html {
     width: 100%;
   }
