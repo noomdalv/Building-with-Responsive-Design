@@ -84,13 +84,34 @@ nav ul {
     display: flex;
   }
 
-  .smallLogoImg {
-    height: 50px;
-    width: 20%;
+  .smallLogoImg {    
+    height: 48px;
+    padding: 16px 20px;
+    width: 106px;
     background-color: #f42;
-    background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg") no-repeat,
-    linear-gradient(to bottom right,#c09,#f42 85%);
+    background: linear-gradient(to bottom right,#c09,#f42 85%);
+  }
+
+  .smallLogoImg img {
+    height: 16px;
+    width: 66px
+  }
+
+  #headerNavWhiteSmall ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
     border: solid black 1px;
+  }
+
+  #headerNavWhiteSmall li {
+    border: solid green 1px;
+  }
+
+  #headerNavWhiteSmall a {
+    text-decoration: none;
+    color: red;
+    border: solid blue 1px;
   }
 }
 
