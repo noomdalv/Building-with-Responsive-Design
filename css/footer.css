@@ -6,7 +6,7 @@ footer {
   width: 100%;
 }
 
-.footerBox1 .footerBox2 {
+.footerBox1 {
   background: #131313;
 }
 
@@ -31,6 +31,10 @@ footer {
 
 .footerBox1 li {
   margin-right: 10px;
+}
+
+.footerBox2 {
+  background: #131313;
 }
 
 .footerBox2 ul {
