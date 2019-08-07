@@ -426,7 +426,6 @@
     }
 
     .secondSectionBox figcaption {
-      border: solid black 1px;
       float: left;
       padding-left: 5px;
       padding-top: 10px;
@@ -895,6 +894,7 @@
      display: grid;
      grid-template-columns: 1fr;
      grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
+     margin-top: -10px;
    }
 
    .fifthSectionBox img {
