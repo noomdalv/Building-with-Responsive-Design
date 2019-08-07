@@ -6,7 +6,7 @@ footer {
   width: 100%;
 }
 
-.footerBox1, .footerBox2 {
+.footerBox1,.footerBox2 {
   background: #131313;
 }
 
@@ -76,7 +76,6 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
   .footerLinks {
     width: 50%;
     display: flex;

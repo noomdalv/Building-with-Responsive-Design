@@ -27,10 +27,6 @@ nav ul {
   font-size: 13px;
 }
 
-#headerNavBlack a:hover {
-  color: white;
-}
-
 #headerNavWhite {
   width: 100%;
 }
@@ -68,15 +64,18 @@ nav ul {
   display: none;
 }
 
-@media screen and (max-width: 768px) {
+#headerNavBlack a:hover {
+  color: white;
+}
 
+@media screen and (max-width: 768px) {
   header {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
   }
 
-  #headerNavBlack, #headerNavWhite, .headerDivYellow {
+  #headerNavBlack,#headerNavWhite,.headerDivYellow {
     display: none;
   }
 
@@ -91,13 +90,12 @@ nav ul {
     height: 48px;
     padding: 16px 20px;
     width: 106px;
-    background-color: #f42;
-    background: linear-gradient(to bottom right,#c09,#f42 85%);
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
   }
 
   .smallLogoImg img {
     height: 16px;
-    width: 66px
+    width: 66px;
   }
 
   #navBarSmallIcons {
@@ -108,7 +106,6 @@ nav ul {
     display: flex;
     justify-content: flex-end;
   }
-
 
   #headerNavWhiteSmall a {
     text-decoration: none;
@@ -134,9 +131,9 @@ nav ul {
   font-size: 13px;
   padding: 3px;
   z-index: 10;
-  }
+}
 
 .headerDivYellow img {
   width: 13px;
   height: 13px;
-  }
+}

@@ -87,12 +87,11 @@
   }
 
   @media screen and (max-width: 768px) {
-
     #firstSection {
       display: grid;
       margin: auto;
       grid-template-columns: 1fr;
-      grid-template-rows:  150px 150px 150px;
+      grid-template-rows: 150px 150px 150px;
     }
   }
 
@@ -153,17 +152,16 @@
     width: 25%;
   }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
+    .firstSectionLeft {
+      grid-row: 1 / 2;
+      width: 100%;
+    }
 
-  .firstSectionLeft {
-    grid-row: 1 / 2;
-    width: 100%;
+    .firstSectionLeftLogo {
+      display: none;
+    }
   }
-
-  .firstSectionLeftLogo {
-    display: none;
-  }
-}
 
   .firstGridLeft {
     display: grid;
@@ -192,37 +190,36 @@
     font-size: 50px;
   }
 
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
+    .firstGridLeft {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 10px 30px 20px;
+      position: relative;
+      bottom: 130px;
+      left: 10px;
+      width: 90%;
+      padding: 0px 10px;
+      align-items: center;
+    }
 
-  .firstGridLeft {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 10px 30px 20px;
-    position: relative;
-    bottom: 130px;
-    left: 10px;
-    width: 90%;
-    padding: 0px 10px;
-    align-items: center;
+    .firstGridLeft h5 {
+      margin-bottom: 0px;
+      margin: 0;
+    }
+
+    .firstGridLeft ul {
+      margin-top: 0;
+      color: gray;
+    }
+
+    .firstGridLeft h2 {
+      font-size: 25px;
+      margin: 0;
+    }
   }
 
-  .firstGridLeft h5 {
-    margin-bottom: 0px;
-    margin: 0;
-  }
-
-  .firstGridLeft ul {
-    margin-top: 0;
-    color: gray;
-  }
-
-  .firstGridLeft h2 {
-    font-size: 25px;
-    margin: 0;
-  }
-}
-
-  .firstSectionTitleA  {
+  .firstSectionTitleA {
     text-decoration: none;
     color: gray;
   }
@@ -232,7 +229,6 @@
   }
 
   /* Right 1 */
-
   .firstGridRight1 {
     display: grid;
     grid-template-columns: 1fr;
@@ -258,7 +254,6 @@
   }
 
   @media screen and (max-width: 768px) {
-
     .firstGridRight1 {
       display: grid;
       grid-template-columns: 1fr;
@@ -296,7 +291,6 @@
   }
 
   /* Right 2 */
-
   .firstGridRight2 {
     display: grid;
     grid-template-columns: 1fr;
@@ -322,7 +316,6 @@
   }
 
   @media screen and (max-width: 768px) {
-
     .firstGridRight2 {
       display: grid;
       grid-template-columns: 1fr;
@@ -360,7 +353,6 @@
   }
 
   /* SECOND SECTION */
-
   #secondSection {
     display: grid;
     width: 80%;
@@ -461,7 +453,6 @@
   }
 
   /* THIRD SECTION */
-
   #thirdSection {
     display: grid;
     width: 78%;
@@ -586,14 +577,13 @@
   }
 
   @media screen and (max-width: 768px) {
-   #thirdSection {
-     display: flex;
-     flex-direction: column;
-   }
+    #thirdSection {
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   /* Fourth Section */
-
   #fourthSection {
     display: grid;
     width: 80%;
@@ -610,14 +600,14 @@
   }
 
   @media screen and (max-width: 768px) {
-   #fourthSection {
-     display: flex;
-     flex-direction: column;
-   }
+    #fourthSection {
+      display: flex;
+      flex-direction: column;
+    }
 
-   .fourthSectionBox {
-     margin-top: 40px;
-   }
+    .fourthSectionBox {
+      margin-top: 40px;
+    }
   }
 
   .fourthSectionBoxTitle h2 {
@@ -851,7 +841,6 @@
   }
 
   /* FIFTH SECTION */
-
   #fifthSection {
     display: grid;
     width: 80%;
@@ -899,38 +888,37 @@
   }
 
   @media screen and (max-width: 768px) {
-   #fifthSection {
-     display: grid;
-     grid-template-columns: 1fr;
-     grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
-     margin-top: -10px;
-   }
+    #fifthSection {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
+      margin-top: -10px;
+    }
 
-   .fifthSectionBox img {
-     width: 90px;
-     height: 75px;
-     float: left;
-   }
+    .fifthSectionBox img {
+      width: 90px;
+      height: 75px;
+      float: left;
+    }
 
-   .fifthSectionBox figcaption {
-     float: left;
-     padding-left: 5px;
-     padding-top: 10px;
-     line-height: 1.5;
-     font-size: 12px;
-     width: 62%;
-   }
+    .fifthSectionBox figcaption {
+      float: left;
+      padding-left: 5px;
+      padding-top: 10px;
+      line-height: 1.5;
+      font-size: 12px;
+      width: 62%;
+    }
 
-   .fifthSectionAuthor {
-     float: left;
-     width: 62%;
-     height: 20px;
-     padding-left: 5px;
-   }
+    .fifthSectionAuthor {
+      float: left;
+      width: 62%;
+      height: 20px;
+      padding-left: 5px;
+    }
 
-   .fifthSectionAuthor p {
-     margin: 0;
-     margin-top: 10px;
-   }
-
+    .fifthSectionAuthor p {
+      margin: 0;
+      margin-top: 10px;
+    }
   }
