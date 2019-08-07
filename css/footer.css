@@ -8,8 +8,8 @@ footer {
 }
 
 .footerBox1, .footerBox2 {
-  background: #131313;
-  width: 100%;
+  background: white; /*#131313;*/
+  border: solid black 1px;
 }
 
 .footerBox1 a {
@@ -20,10 +20,6 @@ footer {
   padding: 12px;
   text-align: center;
   width: 40px;
-}
-
-.footerBox1 li {
-  padding-right: 15px;
 }
 
 .footerBox1 ul {
@@ -82,7 +78,7 @@ footer {
 @media screen and (max-width: 768px) {
 
   .footerBox1 li {
-    padding-right: 0px;
+
   }
 
   .footerLinks {
@@ -95,8 +91,5 @@ footer {
 
   .footerBox1 ul, .footerBox2 ul {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 }
