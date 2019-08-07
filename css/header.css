@@ -35,6 +35,12 @@ nav ul {
   width: 100%;
 }
 
+#headerNavWhite ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
 #headerNavWhite li {
   margin: 0;
   padding: 10px;
@@ -54,6 +60,16 @@ nav ul {
 
 #headerNavWhite a:hover {
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  #headerNavBlack, #headerNavWhite, .headerDivYellow {
+    display: none;
+  }
+
+  #headerNavWhiteSmall {
+    display: flex;
+  }
 }
 
 .headerDivYellow {
