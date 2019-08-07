@@ -75,7 +75,7 @@ nav ul {
     grid-template-rows: 1fr;
   }
 
-  #headerNavBlack,#headerNavWhite,.headerDivYellow {
+  #headerNavBlack #headerNavWhite .headerDivYellow {
     display: none;
   }
 
