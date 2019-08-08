@@ -7,7 +7,7 @@ This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:
 
 #### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-#### [Live Demo](https://rawcdn.githack.com/noomdalv/Building-with-Responsive-Design/18ef628643bff40a0c891cf0f8b00326392000a6/index.html)
+#### [Live Demo](https://rawcdn.githack.com/noomdalv/Building-with-Responsive-Design/35c05fca04d13311e21784b020de4f15ce7adb48/index.html)
 
 #### Authors 
 
