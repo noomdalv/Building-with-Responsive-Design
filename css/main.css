@@ -367,13 +367,11 @@ main {
   grid-row-gap: 10px;
 }
 
-#latestNews,
-#latestDeals {
+#latestNews, #latestDeals {
   grid-column: 1 / 5;
 }
 
-#secondSection h2,
-#fifthSection h2 {
+#secondSection h2, #fifthSection h2 {
   margin: 0;
   color: #f42;
   font-size: 28px;
@@ -381,10 +379,9 @@ main {
   float: left;
 }
 
-.secondSectionBox,
-.fifthSectionBox {
-  width: 100%;
+.secondSectionBox, .fifthSectionBox {
   padding: 0;
+  margin: 0;
 }
 
 figure {
@@ -416,9 +413,19 @@ time {
   font-weight: 400;
 }
 
+@media screen and (max-width: 1024px) {
+  #secondSection {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px 260px 260px 260px;
+  }
+
+  #latestNews {
+    grid-column: 1 / 4;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #secondSection {
-    display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
   }
@@ -585,6 +592,17 @@ time {
   color: #555;
 }
 
+@media screen and (max-width: 1024px) {
+  #thirdSection {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  #hiddenBox {
+    display: none;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
   #thirdSection {
     display: flex;
@@ -606,6 +624,13 @@ time {
 
 .fourthSectionBox {
   margin-top: 40px;
+}
+
+@media screen and (max-width: 1024px) {
+  #fourthSection {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 670px 670px 670px 670px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -909,6 +934,17 @@ figure {
   font-size: 16px;
   font-weight: 400;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  #fifthSection {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 40px 320px 320px 320px;
+  }
+
+  #latestDeals {
+    grid-column: 1 / 4;
+  }
 }
 
 @media screen and (max-width: 768px) {
