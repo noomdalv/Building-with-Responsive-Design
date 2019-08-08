@@ -490,6 +490,7 @@ time {
 #latestFunding {
   grid-column: 1 / 5;
   width: 100%;
+  height: max-content;
 }
 
 .latestFundingLinks {
@@ -513,8 +514,8 @@ time {
 }
 
 .thirdSectionHeaderImg {
-  width: 60px;
-  height: 60px;
+  width: 20%;
+  height: 20%;
   position: absolute;
   left: 10px;
   top: 10px;
@@ -532,11 +533,12 @@ time {
   margin: 0;
   font-size: 16px;
   padding-top: 7px;
+  padding-left: 30px;
 }
 
 .thirdSectionHeaderBottom {
+  width: 100%;
   height: 60%;
-  border: solid #ffebe8 1px;
   background: #ffebe8;
   padding: 0 70px 0 0;
 }
@@ -546,6 +548,7 @@ time {
   font-weight: bold;
   margin: 0;
   padding-top: 7px;
+  padding-left: 40px;
 }
 
 .thirdSectionHeaderBottom h5 {
@@ -553,6 +556,7 @@ time {
   font-size: 12px;
   font-weight: 700;
   opacity: 0.5;
+  padding-left: 40px;
 }
 
 .thirdSectionMain {
@@ -595,12 +599,12 @@ time {
 @media screen and (max-width: 1024px) {
   #thirdSection {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 60px 260px;
   }
 
   #hiddenBox {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 768px) {
@@ -890,6 +894,7 @@ time {
 }
 
 /* FIFTH SECTION */
+
 #fifthSection {
   display: grid;
   width: 80%;
@@ -940,6 +945,7 @@ figure {
   #fifthSection {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 40px 320px 320px 320px;
+    margin-bottom: -50px;
   }
 
   #latestDeals {
@@ -953,6 +959,7 @@ figure {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
     margin-top: -10px;
+    margin-bottom: -100px;
   }
 
   .fifthSectionBox img {

@@ -29,15 +29,16 @@ nav ul {
 
 #headerNavWhite {
   width: 100%;
+  height: 48px;
   display: flex;
+  margin-bottom: 5px;
 }
 
 #headerNavWhite ul {
   width: 50%;
   display: flex;
   flex-wrap: wrap;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 5px;
 }
 
 #headerNavWhite li {
@@ -53,7 +54,7 @@ nav ul {
   justify-content: center;
   color: #858585;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 14px;
   font-family: "Courier New", monospace;
 }
 
@@ -71,7 +72,7 @@ nav ul {
 
 #headerNavWhite div {
   width: 50%;
-  height: 60px;
+
   display: flex;
   justify-content: flex-end;
   margin-right: 10px;
