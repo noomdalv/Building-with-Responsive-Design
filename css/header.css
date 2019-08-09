@@ -1,0 +1,162 @@
+#headerNavBlack {
+  background: black;
+  width: 100%;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+#headerNavBlack li {
+  margin: 0;
+  padding: 8px;
+  align-items: center;
+  display: flex;
+}
+
+#headerNavBlack a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: hsla(0, 0%, 100%, 0.6);
+  text-decoration: none;
+  font-size: 13px;
+}
+
+#headerNavWhite {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#headerNavWhite ul {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+}
+
+#headerNavWhite li {
+  margin: 0;
+  padding: 10px;
+  align-items: center;
+  display: flex;
+}
+
+#headerNavWhite a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #858585;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Courier New", monospace;
+}
+
+#headerNavWhite a:hover {
+  color: black;
+}
+
+#headerNavWhiteSmall {
+  display: none;
+}
+
+#headerNavBlack a:hover {
+  color: white;
+}
+
+#headerNavWhite div {
+  width: 50%;
+
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10px;
+}
+
+#headerNavWhite div a {
+  border-left: solid #f2f2f2 1px;
+  padding-left: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+
+  #headerNavBlack {
+    display: none;
+  }
+
+  #headerNavWhite {
+    display: none;
+  }
+
+  .headerDivYellow {
+    display: none;
+  }
+
+  #headerNavWhiteSmall {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    margin-bottom: 5px;
+  }
+
+  .smallLogoImg {
+    height: 48px;
+    padding: 16px 20px;
+    width: 106px;
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+  }
+
+  .smallLogoImg img {
+    height: 16px;
+    width: 66px;
+  }
+
+  #navBarSmallIcons {
+    width: 90%;
+  }
+
+  #navBarSmallIcons ul {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #headerNavWhiteSmall a {
+    text-decoration: none;
+    color: red;
+  }
+
+  #headerNavWhiteSmall li {
+    border-left: solid #f1f2f2 1px;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+  }
+}
+
+.headerDivYellow {
+  position: sticky;
+  top: 0;
+  background: #fd3;
+  color: #000;
+  font-size: 13px;
+  padding: 3px;
+  z-index: 10;
+}
+
+.headerDivYellow img {
+  width: 13px;
+  height: 13px;
+}
