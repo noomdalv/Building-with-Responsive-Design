@@ -959,7 +959,11 @@ figure {
     grid-template-columns: 1fr;
     grid-template-rows: 50px 75px 75px 75px 75px 75px 75px 75px 75px;
     margin-top: -10px;
-    margin-bottom: -100px;
+    
+  }
+
+  #latestDeals {
+    grid-column: 1 / 2;
   }
 
   .fifthSectionBox img {
