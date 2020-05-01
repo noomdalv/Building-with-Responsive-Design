@@ -10,12 +10,13 @@ This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https:
 ### [Live Demo](https://rawcdn.githack.com/noomdalv/Building-with-Responsive-Design/2da975d24f53fec4a4e1161f7c13b297426cf435/index.html)
 
 ## Screenshots
+<span>Header</span>
 ![screenshot](https://i.imgur.com/kPcSpVJ.jpg)
-
+<span>Grid Section</span>
 ![screenshot](https://i.imgur.com/4ZhPeyj.jpg)
-
+<span>Grid Section</span>
 ![screenshot](https://i.imgur.com/Q8HzXtN.jpg)
-
+<span>Footer</span>
 ![screenshot](https://i.imgur.com/FQ8DUd3.jpg)
 
 ## Download
