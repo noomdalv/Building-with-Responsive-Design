@@ -1,15 +1,37 @@
-# Responsive-Design
-Microverse Project: Responsive Design
+## Project: Responsive Design
+<b>Microverse</b> 
 
 This is the sixth project of the Main HTML/CSS curriculum at [Microverse](https://www.microverse.org/) - @microverseinc
 * The goal was to recreate The Next Web website.
 * The project was completed using simple html and css3 with media queries.
 
-#### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
+### [Assignment link](https://www.theodinproject.com/courses/html5-and-css3/lessons/building-with-responsive-design)
 
-#### [Live Demo](https://rawcdn.githack.com/noomdalv/Building-with-Responsive-Design/2da975d24f53fec4a4e1161f7c13b297426cf435/index.html)
+### [Live Demo](https://rawcdn.githack.com/noomdalv/Building-with-Responsive-Design/2da975d24f53fec4a4e1161f7c13b297426cf435/index.html)
 
-#### Authors 
+## Screenshots
+![screenshot](https://i.imgur.com/kPcSpVJ.jpg)
 
-* [@SofiBretz](https://github.com/SofiBretz)
-* [@noomdalv](https://github.com/noomdalv/)
+![screenshot](https://i.imgur.com/4ZhPeyj.jpg)
+
+![screenshot](https://i.imgur.com/Q8HzXtN.jpg)
+
+![screenshot](https://i.imgur.com/FQ8DUd3.jpg)
+
+## Download
+
+To get a local copy up and running go to the location you'd like to add the project and then clone the repository with:
+
+```console
+git clone https://github.com/noomdalv/Building-with-Responsive-Design.git
+```
+
+### 👤 Authors
+
+- Github: [@SofiBretz](https://github.com/SofiBretz)
+
+- Github: [@noomdalv](https://github.com/noomdalv/)
+
+#### License
+
+This project is 📝 [MIT](https://opensource.org/licenses/MIT) licensed.
