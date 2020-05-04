@@ -29,9 +29,11 @@ git clone https://github.com/noomdalv/Building-with-Responsive-Design.git
 
 ### 👤 Authors
 
-- Github: [@SofiBretz](https://github.com/SofiBretz)
+- Github: [@SofiBretz](https://github.com/SofiBretz)<br />
+  Email: sofiabarrantes.gamboa@gmail.com
 
-- Github: [@noomdalv](https://github.com/noomdalv/)
+- Github: [@noomdalv](https://github.com/noomdalv/)<br />
+  Email: vladlunasan@gmail.com
 
 #### License
 
